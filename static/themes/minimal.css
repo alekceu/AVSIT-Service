@@ -1,0 +1,29 @@
+/* Тема «minimal»: светлый минимализм — белый, чёрная типографика, оранжевый акцент */
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap");
+:root { --ink:#111111; --ink-2:#262626; --text:#404040; --muted:#737373; --line:#e7e5e4;
+  --bg:#fafaf9; --bg-alt:#f2f1ef; --accent:#ff5a1f; --accent-soft:#fff1eb; --radius:6px; --shadow:none; }
+body { font-family:"Onest", system-ui, sans-serif; background:var(--bg); }
+.topbar { background:rgba(250,250,249,.9); border-bottom:1px solid var(--line); }
+.logo { color:var(--ink); } .logo__mark { background:var(--ink); border-radius:6px; }
+.nav a { color:var(--muted); } .nav a:hover { color:var(--ink); }
+.btn { border-radius:6px; }
+.btn--tg { background:var(--ink); box-shadow:none; } .btn--tg:hover { background:#000; }
+.hero { background:var(--bg); color:var(--text); padding:96px 0 80px; border-bottom:1px solid var(--line); }
+.hero h1 { color:var(--ink); font-size:clamp(36px,6vw,68px); letter-spacing:-.04em; font-weight:700; }
+.pill { background:var(--accent-soft); border:0; color:var(--accent); border-radius:4px; }
+.hero .btn--ghost { color:var(--ink); border-color:var(--ink); }
+.facts b { color:var(--ink); }
+.rate-card { background:var(--ink); color:#a3a3a3; border-radius:6px; box-shadow:none; }
+.rate-card__price { color:var(--accent); }
+.checks li::before { background-color:var(--accent); }
+.card { border-radius:6px; }
+.svc__icon { background:transparent; color:var(--accent); padding:0; width:28px; height:28px; }
+.price-list li { border-top-style:solid; }
+.steps li { background:transparent; border:0; border-top:2px solid var(--ink); border-radius:0; padding:20px 0 0; }
+.steps span { background:transparent; color:var(--accent); font-size:28px; width:auto; height:auto; place-items:start; }
+.avatar { background:var(--ink); color:#fff; }
+.cta { background:var(--ink); color:#a3a3a3; border-radius:6px; } .cta h2 { color:#fff; }
+.cta .btn--tg { background:var(--accent); }
+.footer { background:var(--bg-alt); color:var(--muted); border-top:1px solid var(--line); }
+.footer .logo--light { color:var(--ink); } .contacts li, .contacts a { color:var(--ink); }
+.footer__copy { border-color:var(--line); }
